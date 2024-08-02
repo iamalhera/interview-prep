@@ -15,6 +15,7 @@ From basic to advanced: test how well you know JavaScript, refresh your knowledg
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
+
 ---
 
 ###### 1. What's the output?
@@ -33,7 +34,7 @@ sayHi();
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer:
+#### Answer: `undefined` and `ReferenceError`
 
 Within the function, we first declare the `name` variable with the `var` keyword. This means that the variable gets hoisted (memory space is set up during the creation phase) with the default value of `undefined`, until we actually get to the line where we define the variable. We haven't defined the variable yet on the line where we try to log the `name` variable, so it still holds the value of `undefined`.
 
@@ -56,11 +57,10 @@ for (let i = 0; i < 3; i++) {
 }
 ```
 
-
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer:
+#### Answer: `3 3 3` and `0 1 2`
 
 Because of the event queue in JavaScript, the `setTimeout` callback function is called _after_ the loop has been executed. Since the variable `i` in the first loop was declared using the `var` keyword, this value was global. During the loop, we incremented the value of `i` by `1` each time, using the unary operator `++`. By the time the `setTimeout` callback function was invoked, `i` was equal to `3` in the first example.
 
