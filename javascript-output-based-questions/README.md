@@ -1,20 +1,10 @@
 <div align="center">
   <img height="60" src="https://img.icons8.com/color/344/javascript.png">
-  <h1>JavaScript Questions</h1>
+  <h1>JavaScript Questions : Output Based</h1>
 </div>
 
-> [!NOTE]  
-> This repo is created in 2024 and the questions provided here are therefore based on the JavaScript syntax and behavior at that time. Since JavaScript is a constantly evolving language, there are newer language features that are not covered by the questions here.
-
----
-
 <p align="center">
-From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit or prepare for your coding interview! :muscle: :rocket: I update this repo regularly with new questions. I added the answers in the **collapsed sections** below the questions, simply click on them to expand it. It's just for fun, good luck! :heart:</p>
-
-| Feel free to use them in a project! 😃 Even i got this Amazing template from [Lydia](https://github.com/lydiahallie) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-
+From basic to advanced: test how well you know JavaScript and give an educated guess of output before going for solution </p>
 
 ---
 
